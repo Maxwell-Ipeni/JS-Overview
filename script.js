@@ -129,3 +129,11 @@ function double(x){
     return 2*x;
 }
 console.log(double(result));
+
+//callback functions
+function foo(func){ console.log("foo")
+    func();
+}
+foo(function(){
+    console.log("buzz")
+})
