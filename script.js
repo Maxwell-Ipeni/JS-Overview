@@ -104,3 +104,28 @@ printThis();
 
 // Functions as an expression
 
+let PrintMe = function() {
+    console.log("PrintMe")
+}
+PrintMe();
+
+//parameters and arguments
+console.log("parameters and arguments")
+function sum(a,b){
+const result =a+b;
+console.log(result);
+}
+sum(10,6);
+
+//return statement
+console.log("return statement")
+function sum(a,b){
+    const result=(a+b);
+    return result;
+}
+let result =sum(10,89)
+
+function double(x){
+    return 2*x;
+}
+console.log(double(result));
