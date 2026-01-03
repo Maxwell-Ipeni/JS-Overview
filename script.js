@@ -119,8 +119,8 @@ sum(10,6);
 
 //return statement
 console.log("return statement")
-function sum(a,b){
-    const result=(a+b);
+function sum(a,b, c){
+    const result=(a+b*c);
     return result;
 }
 let result =sum(10,89)
