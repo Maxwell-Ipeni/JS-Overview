@@ -1,2 +1,2 @@
-Learn Javascript.
+Learn Javascript..
 The basics to advance
